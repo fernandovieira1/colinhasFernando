@@ -1,0 +1,138 @@
+COLINHA HTML
+-------------
+
+# Links úteis
+--------------
+- https://www.devmedia.com.br/html-basico-codigos-html/16596 (Devmidia)
+- https://developer.mozilla.org/pt-BR/docs/Web (Tecnologia para desenvolvedores web)
+
+ESTRUTURA BÁSICA
+---------------------
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+</head>
+<body>
+<!-- Conteúdo -->
+</body>
+</html>
+
+FORMATAÇÃO DE TEXTO
+--------------------
+<p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
+<p>Texto em itálico com <i>italics<i> e <em>emphasis</em>.</p>
+<p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+<p>Texto <ins>inserido</ins> e <del>excluído</del>.</p>
+<p>Texto <small>pequeno</small> e <mark>destacado</mark>.</p>
+
+<p align=”Left”> * Aqui você insere o texto </p>
+<p align=”center”> *Aqui voce insere o texto </center>
+<p align=”Right”> * Aqui você insere o texto </center> </p>
+<p align=”Justify”> *Aqui você insere o texto </center>
+
+CABEÇALHOS
+-----------
+<h1>Cabeçalho nível 1</h1>
+<h2>Cabeçalho nível 2</h2>
+<h3>Cabeçalho nível 3</h3>
+<h4>Cabeçalho nível 4</h4>
+<h5>Cabeçalho nível 5</h5>
+<h6>Cabeçalho nível 6</h6>
+
+PARÁGRAFOS
+------------
+<p>Primeiro parágrafo do texto.</p>
+<p>Segundo parágrafo do texto.</p>
+<p>Terceiro parágrafo do texto.</p>
+
+LISTAS
+-------
+# Numerada
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+
+# Marcadores
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+
+# Títulos numerados
+<dl>
+<dt>Título 1</dt>
+<dd>Definição 1</dd>
+<dt>Título 2</dt>
+<dd>Definição 2</dd>
+<dt>Título 3</dt>
+<dd>Definição 3</dd>
+</dl>
+
+IMAGENS
+---------
+<img src="avatar.png" alt="Texto alternativo" title="Avatar" />
+<img src="arquivo_inexistente.jpg" alt="Texto alternativo" title="Outra figura"/>
+
+LINKS
+-------
+# Link para outra página
+<a href="pagina2.html">Página 2</a> 
+
+# Link na mesma página
+<a href="#paragrafo3">Ir para o parágrafo 3</a>
+<!--outros elementos-->
+<p id="rodape">Parágrafo no rodapé.</p
+
+TABELAS
+---------
+# Exemplo 1
+<table>
+<tr>
+<td>Linha 1, Coluna 1</td>
+<td>Linha 1, Coluna 2</td>
+</tr>
+<tr>
+<td>Linha 2, Coluna 1</td>
+<td>Linha 2, Coluna 2</td>
+</tr>
+<tr>
+<td>Linha 3, Coluna 1</td>
+<td>Linha 3, Coluna 2</td>
+</tr>
+</table>
+
+# Exemplo 2
+<table>
+<thead>
+<tr>
+<th>Produto</th>
+<th>Preço</th>
+<th>Quantidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Feijão</td>
+<td>R$ 8,75</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Arroz</td>
+<td>R$ 4,99</td>
+<td>2</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Total</td>
+<td></td>
+<td>R$ 18,73</td>
+</tr>
+</tfoot>
+</table>
+
