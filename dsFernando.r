@@ -139,6 +139,7 @@ View(titan) # Imprime todo o dataframe
 nrow(titan) # Nr. de linhas
 colnames(titan) # Nome das colunas
 dim(titan) # nr. linhas e nr. colunas
+length(titan) # Qtde de itens (tamanho do vetor)
 print(titan) # Visão resumida do df -- colunas, nr. linhas e nr. colunas (como tibble, via tidyverse)
 colSums(is.na(titan)) # Contagem de dados nulos (linhas), por coluna (CUIDADO: r não lida bem com NaN em variáveis categóricas. A coluna 'Cabin' tem 687 obs (77%) de missing data, mas r não considerou falta de nenhuma)
 round(colMeans(is.na(titan)), 2)
