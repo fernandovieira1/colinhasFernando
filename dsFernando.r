@@ -262,6 +262,11 @@ bank %>% filter(age >= 30 & age < 50) %>% filter(marital == "married" | marital 
 bank %>% filter(age >= 30 & age < 50) %>% filter(marital == "married" | marital == "divorced") %>% dim() # deu diferença para o python (93 a menos)
 bank %>% filter(age >= 30 & age < 50) %>% filter(marital == "married" | marital == "divorced") %>% group_by(marital) %>% summarise(mean = mean(balance)) # Volta apenas as colunas balance e marital
 
+## Sapply
+head(iris)
+tail(iris)
+sapply(iris[,1:4], mean)
+
 #### 4. MODELAGEM ####
 # https://medium.com/data-hackers/tutorial-ajuste-e-interpreta%C3%A7%C3%A3o-de-regress%C3%A3o-linear-com-r-5b23c4ddb72
 
