@@ -256,11 +256,12 @@ print(df)
 
 #### 2.3 Renomear colunas
 # https://www.geeksforgeeks.org/python-change-column-names-and-row-indexes-in-pandas-dataframe/
+# renomear todas as colunas
 ageSex.columns
 ageSex.rename(columns={"Age": "idade", "Sex": "sexo", "novaColuna": "coluna1", "newCol": "coluna2"}, inplace=True) # Modo 1
 
 df.columns
-novosNomes = ["Country", "Capital", "Population"]
+novosNomes = ["Country", "Capital", "Population"] 
 df.columns = novosNomes # Modo 2
 
 dados = [[1, 2, 3],
@@ -273,6 +274,9 @@ modo3 = pd.DataFrame(data = dados, columns = colunas) # Modo 3
 print(modo3)
 
 df.columns.str.replace(" ", "_") # Modo 4: substitui caracteres no nome das colunas (este não vai funcionar aqui pq o df atual não tem espaço -- apenas p/ ex.)
+
+# renomear apenas uma coluna
+df.rename(columns={"nomeAntigo':'novoNome"}, inplace=True)
 
 #### 2.4 Selecionar dados (linhas e colunas)
 babel.head(10)
