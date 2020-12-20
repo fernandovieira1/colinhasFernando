@@ -3,6 +3,7 @@
 # Numpy (álgebra) [https://numpy.org/]
 # https://www.programiz.com/python-programming
 # Commit no repl.it (19122020)
+# Commit no repl.it 2 -- para ver se realmente funciona (19122020)
 
 ## Anotações diversas
 # Encondig Python: https://docs.python.org/2/library/codecs.html#standard-encodings
