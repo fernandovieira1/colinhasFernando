@@ -2,6 +2,7 @@
 # Pandas (importação, dataframe e manipulação de dados) [https://pandas.pydata.org/]
 # Numpy (álgebra) [https://numpy.org/]
 # https://www.programiz.com/python-programming
+# Commit no repl.it (19122020)
 
 ## Anotações diversas
 # Encondig Python: https://docs.python.org/2/library/codecs.html#standard-encodings
