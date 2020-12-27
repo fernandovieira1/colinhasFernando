@@ -8,6 +8,7 @@
 #             - purr (programação funcional) [https://purrr.tidyverse.org/]
 #             - ggplot (gráficos) [https://ggplot2.tidyverse.org/]
 # http://material.curso-r.com/rbase/
+# wsl 23122020
 
 #### 0. IMPORTAÇÃO DE PACOTES ####
 ## Configuração de ambiente (antes)
