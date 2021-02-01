@@ -9,6 +9,7 @@
 #             - ggplot (gráficos) [https://ggplot2.tidyverse.org/]
 # http://material.curso-r.com/rbase/
 # wsl 23122020
+# Como usar o github no RStudio: https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/#1
 
 #### 0. IMPORTAÇÃO DE PACOTES ####
 ## Configuração de ambiente (antes)
