@@ -22,7 +22,8 @@ library(ggthemes)
 
 #### 1. IMPORTAÇÃO DOS DADOS ####
 ## CSV
-zuru <- read.csv("DadosAulaZurubabel.csv", fileEncoding = "UTF-8", sep = ";") # Dados Zurubabel
+url = 'https://1drv.ms/u/s!AqlEsL9Wt3_5iYtiHYDkhdC3q3AVdw?e=cWxrOB'
+zuru <- read.csv(url, fileEncoding = "UTF-8", sep = ";") # Dados Zurubabel
 zuru <- as_tibble(zuru)
 head(zuru)
 
