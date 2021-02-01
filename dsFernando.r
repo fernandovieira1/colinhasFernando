@@ -12,7 +12,7 @@
 
 #### 0. IMPORTAÇÃO DE PACOTES ####
 ## Configuração de ambiente (antes)
-setwd("/Users/fernandovieira/OneDrive/1. Educacao/INFO E ESTAT/Fernando DS - Python e R/Dados")
+setwd("/Users/fernandovieira/OneDrive/1. Educacao/INFO E ESTAT/RAIZ-colinhasFernando/colinhasFernando")
 # setwd("C:/Users/70485992191/OneDrive/1. Educacao/INFO E ESTAT/Fernando DS - Python e R/Dados")
 dir()
 library(tidyverse)
@@ -22,16 +22,18 @@ library(ggthemes)
 
 #### 1. IMPORTAÇÃO DOS DADOS ####
 ## CSV
-url = 'https://1drv.ms/u/s!AqlEsL9Wt3_5iYtiHYDkhdC3q3AVdw?e=cWxrOB'
-zuru <- read.csv(url, fileEncoding = "UTF-8", sep = ";") # Dados Zurubabel
+url_zuru = 'https://raw.githubusercontent.com/fernandovieira1/colinhasFernando/master/DadosAulaZurubabel.csv'
+zuru <- read.csv(url_zuru, fileEncoding = "UTF-8", sep = ";") # Dados Zurubabel
 zuru <- as_tibble(zuru)
 head(zuru)
 
-titan <- read.csv("titanic_data.csv") # Dados Titanic
+url_titan = "https://raw.githubusercontent.com/fernandovieira1/colinhasFernando/master/titanic_data.csv"
+titan <- read.csv(url_titan) # Dados Titanic
 titan <- as_tibble(titan)
 head(titan)
 
-escravos <- read.csv("slavevoyages.csv", fileEncoding = "UTF-8", sep = ",")
+url_escravos = "https://raw.githubusercontent.com/fernandovieira1/colinhasFernando/master/slavevoyages.csv"
+escravos <- read.csv(url_escravos, fileEncoding = "UTF-8", sep = ",")
 escravos <- as_tibble(escravos)
 escravos <- escravos %>% rename("ID" = "Identidade.da.viagem",
                                 "Embarcacao" = "Vessel.name",
@@ -43,7 +45,8 @@ escravos <- escravos %>% rename("ID" = "Identidade.da.viagem",
                                 "Capitao" = "Captain.s.name")
 escravos
 
-bank <- read.csv("bank.csv", encoding = "UTF-8", sep = ";") # https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+url_bank = "https://raw.githubusercontent.com/fernandovieira1/colinhasFernando/master/bank.csv"
+bank <- read.csv(url_bank, encoding = "UTF-8", sep = ";") # https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 bank <- as_tibble(bank)
 head(bank)
 
@@ -53,7 +56,8 @@ babel <- as_tibble(babel)
 head(babel)
 
 ## TXT
-climaCba <- read.table("temp_cuiaba.txt", sep = ";", dec = ",", header = TRUE) # Ler o arquivo txt
+temp_cuiaba = "https://raw.githubusercontent.com/fernandovieira1/colinhasFernando/master/temp_cuiaba.txt"
+climaCba <- read.table(temp_cuiaba, sep = ";", dec = ",", header = TRUE) # Ler o arquivo txt
 climaCba <- climaCba %>% select("Data", "TempMaxima", "TempMinima", "Temp.Comp.Media", "Umidade.Relativa.Media") # Selecionar as colunas úteis
 climaCba <- as_tibble(climaCba)
 climaCba$Data <- dmy(climaCba$Data) # transformar factor em date
