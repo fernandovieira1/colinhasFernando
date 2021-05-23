@@ -4,7 +4,7 @@
 # https://www.programiz.com/python-programming
 # Commit no repl.it (19122020)
 # Commit no repl.it 2 -- para ver se realmente funciona (19122020)
-
+print("Oi, Python no Gitpod!")
 ## Anotações diversas
 # Encondig Python: https://docs.python.org/2/library/codecs.html#standard-encodings
 # Estudo Titanic: https://paulovasconcellos.com.br/o-que-o-naufr%C3%A1gio-do-titanic-nos-ensina-at%C3%A9-hoje-data-science-project-2fea8ff1c9b5
