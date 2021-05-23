@@ -14,7 +14,7 @@
 #          - https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown#topic_xqx_mvc_43__line_break
 #          - https://blog.da2k.com.br/2015/02/08/aprenda-markdown/
 #          - https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
-print("Olá, Gitpod!")
+
 #### 0. IMPORTAÇÃO DE PACOTES ####
 ## Configuração de ambiente (antes)
 # Bibliotecas padrão: http://turing.com.br/pydoc/2.7/tutorial/stdlib.html
