@@ -1,3 +1,7 @@
 pandas
 numpy
 matplotlib
+seaborn
+scipy.stats
+squarify
+Waffle
