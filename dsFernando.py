@@ -5,7 +5,7 @@
 # Commit no repl.it (19122020)
 # Commit no repl.it 2 -- para ver se realmente funciona (19122020)
 print("Oi, Python no Gitpod!")
-## Anotações diversas
+## Anotações diversas 
 # Encondig Python: https://docs.python.org/2/library/codecs.html#standard-encodings
 # Estudo Titanic: https://paulovasconcellos.com.br/o-que-o-naufr%C3%A1gio-do-titanic-nos-ensina-at%C3%A9-hoje-data-science-project-2fea8ff1c9b5
 # Geral Pandas: https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1
